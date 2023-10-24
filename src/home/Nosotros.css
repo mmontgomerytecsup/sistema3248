@@ -1,0 +1,11 @@
+#nosotros{
+    background-color: var(--color2);  
+    color: var(--color-blanco);  
+  }
+
+.card-body{
+  background-color: black;
+}
+.recolor{
+  background-color: #FFC01D;
+}

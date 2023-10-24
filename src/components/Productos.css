@@ -1,0 +1,40 @@
+.precio-lista{
+    color: var(--color-gris-claro);
+    text-decoration: line-through;
+    margin-left: 15px;
+}
+.porcentaje-descuento{
+    background-color: var(--color1);
+    color: var(--color-blanco);
+    position: absolute;
+    right: 0;
+    padding: 5px 10px;
+    border-radius: 0 0 0 10px;
+    top:0;
+}
+.vista-rapida{
+    position: absolute;
+    top: calc(50% - 17px);
+    left: calc(50% - 18px);
+    background-color: rgba(0,0,0,0.8);
+    color: var(--color-blanco);
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.vista-rapida:hover{
+    opacity: 1;
+}
+.image-content{
+    position: relative;
+}
+.btnCarrito{
+    cursor: pointer;
+    margin-left: 5px;
+}
+.btnCarrito:hover{
+    color: var(--color1);
+}
+
